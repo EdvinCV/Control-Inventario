@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="baac5ffef5e74922a78f6772bd3e135d" Name="Diagram1" ZoomLevel="31">
+        <EntityTypeShape EntityType="ColoresModel.Categoria" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.Cheque" Width="1.5" PointX="1.5" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.Cliente" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.DetalleFactura" Width="1.5" PointX="7.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.Efectivo" Width="1.5" PointX="1.5" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.Factura" Width="1.5" PointX="5.25" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.Marca" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.Medida" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.MetodoPago" Width="1.5" PointX="0.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.Pago" Width="1.5" PointX="3" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.Permiso" Width="1.5" PointX="1.75" PointY="32.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.PermisoRol" Width="1.5" PointX="4" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.Producto" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.Rol" Width="1.5" PointX="0.75" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.TarjetaCredito" Width="1.5" PointX="1.5" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.TipoProducto" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.TipoUsuario" Width="1.5" PointX="0.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ColoresModel.Usuario" Width="1.5" PointX="3" PointY="27.375" IsExpanded="true" />
+        <AssociationConnector Association="ColoresModel.Relationship2" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.FK_MetodoPago_Cheque" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.Relationship11" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.Relationship14" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.Relationship15" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.FK_MetodoPago_Efectivo" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.Relationship12" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.Relationship13" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.Relationship4" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.Relationship3" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.FK_MetodoPago_TarjetaCredito" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.FK_Pago_MetodoPago" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.FK_PermisoRol_Permiso" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.FK_PermisoRol_Rol" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.Relationship5" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.FK_Usuario_Rol" ManuallyRouted="false" />
+        <AssociationConnector Association="ColoresModel.Relationship6" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
